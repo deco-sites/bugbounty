@@ -67,7 +67,173 @@
       "name": "It Works!"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/c04786e1-b02e-4860-8ac8-2ae936975262",
+      "columnLinks": [
+        {
+          "items": [
+            {
+              "text": "Link One",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Two",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Three",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Four",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Five",
+              "textUrl": "/"
+            }
+          ],
+          "title": "Column One",
+          "titleUrl": "/"
+        },
+        {
+          "items": [
+            {
+              "text": "Link One",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Two",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Three",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Four",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Five",
+              "textUrl": "/"
+            }
+          ],
+          "title": "Column Two",
+          "titleUrl": "/"
+        },
+        {
+          "items": [
+            {
+              "text": "Link One",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Two",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Three",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Four",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Five",
+              "textUrl": "/"
+            }
+          ],
+          "title": "Column Three",
+          "titleUrl": "/"
+        },
+        {
+          "items": [
+            {
+              "text": "Link One",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Two",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Three",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Four",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Five",
+              "textUrl": "/"
+            }
+          ],
+          "title": "Column Four",
+          "titleUrl": "/"
+        },
+        {
+          "items": [
+            {
+              "text": "Link One",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Two",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Three",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Four",
+              "textUrl": "/"
+            },
+            {
+              "text": "Link Five",
+              "textUrl": "/"
+            }
+          ],
+          "title": "Column Five",
+          "titleUrl": "/"
+        }
+      ],
+      "footerBottom": {
+        "0": {
+          "socials": [
+            "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/0f6f1c02-8597-4c3a-b78c-01da1e7f6798"
+          ],
+          "texts": [
+            {
+              "text": "Privacy Policy",
+              "url": "/"
+            }
+          ]
+        },
+        "socials": [
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/0ed8b6ee-8945-43a1-af3e-f404c0b338a8",
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/1b2eda56-a1e6-42a1-ad8a-6ecbe5340c0e",
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/9ca99767-13b2-4f8a-a6c8-3f55d9dccc7f",
+          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/658a8614-2d10-4392-97b8-061c79ba668c"
+        ],
+        "texts": [
+          {
+            "text": "Privacy Policy",
+            "url": "/"
+          },
+          {
+            "text": "Terms of Service",
+            "url": "/"
+          },
+          {
+            "text": "Cookie Settings",
+            "url": "/"
+          }
+        ]
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
