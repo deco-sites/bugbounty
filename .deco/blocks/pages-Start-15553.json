@@ -1,1 +1,74 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/ItWorks.tsx","name":"It Works!"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/057597f8-b02e-46a7-929c-44818df7f4e2",
+      "navLinks": [
+        {
+          "subLinks": [
+            {
+              "subLinks": [],
+              "text": "Teste",
+              "label": "Teste"
+            }
+          ],
+          "text": "How it works",
+          "label": "How it works"
+        },
+        {
+          "subLinks": [
+            {
+              "subLinks": [],
+              "text": "Teste",
+              "label": "Teste"
+            }
+          ],
+          "text": "Resources",
+          "label": "Resources"
+        },
+        {
+          "subLinks": [],
+          "label": "Docs"
+        },
+        {
+          "subLinks": [],
+          "label": "Pricing"
+        }
+      ],
+      "navSocials": [
+        {
+          "label": "Discord",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/d139f234-097a-49fa-9ecd-cda95a72017f",
+          "link": "#discord-deco.cx"
+        },
+        {
+          "label": "Github",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/7c80dcb7-0add-4c41-99cc-1e889993e73c",
+          "link": "#github-deco-cx"
+        }
+      ],
+      "ctas": [
+        {
+          "style": "accent",
+          "label": "Try Now",
+          "link": "#try-now-deco-cx"
+        },
+        {
+          "style": "primary",
+          "label": "Sign In",
+          "link": "#sign-in-deco-cx"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ItWorks.tsx",
+      "name": "It Works!"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
