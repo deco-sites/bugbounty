@@ -512,6 +512,9 @@
       }
     },
     {
+      "__resolveType": "site/sections/FAQ.tsx"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/c04786e1-b02e-4860-8ac8-2ae936975262",
       "columnLinks": [
