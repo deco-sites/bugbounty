@@ -9,6 +9,7 @@ export default {
     extend: {
       dropShadow: {
         "luminous": "2px 0px 40px #02F67CCC",
+        "luminous-less": "2px 0px 10px #02F67CCC",
       },
     },
   },

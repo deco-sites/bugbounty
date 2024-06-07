@@ -28,6 +28,7 @@
     "base-300": "#C9CFCF",
     "tertiary-content": "#113032",
     "neutral-content": "#0D1717",
-    "info-content": "#113032"
+    "info-content": "#113032",
+    "secondary-content": "#A1A1AA"
   }
 }
