@@ -192,8 +192,35 @@
       "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/7f9f8650-98dc-43d2-8838-f46e0d68f613"
     },
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "It Works!"
+      "__resolveType": "site/sections/Info.tsx",
+      "title": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 60pt;\" data-mce-style=\"font-size: 60pt;\">Our bug bounty program</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 60pt;\" data-mce-style=\"font-size: 60pt;\">&nbsp;covers the following areas:</span></p>",
+      "titleMobile": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"font-size: 36pt;\" data-mce-style=\"font-size: 36pt;\">Our bug bounty program covers the following area:</span></p>",
+      "info": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/09a4088d-1694-4fab-9b95-4e0d78337896",
+          "title": "Website",
+          "subtitle": "User-facing site functionality",
+          "luminousEffect": true
+        },
+        {
+          "title": "API endpoints",
+          "subtitle": "Data interaction interfaces",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/04d0a09a-0b67-426b-8f61-acae8d736397",
+          "luminousEffect": true
+        },
+        {
+          "title": "Cloud infrastructure",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/b97d3593-2689-48ed-8844-144e051ee5a0",
+          "subtitle": "Online services and storage",
+          "luminousEffect": true
+        },
+        {
+          "subtitle": "External service connectivity",
+          "title": "Integration capabilities",
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/ae6298a9-09c8-419e-8aac-209b971d9b23",
+          "luminousEffect": true
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Hero.tsx",

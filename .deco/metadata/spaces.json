@@ -266,6 +266,9 @@
       "name": "Themes",
       "pinned": true,
       "icon": "palette",
+<<<<<<< HEAD
+      "layout": [],
+=======
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -375,6 +378,7 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+>>>>>>> 2eb7b4e435fde63be119a7421e3541c8784af0ab
       "tabs": {
         "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D": {
           "name": "Theme Selector",
