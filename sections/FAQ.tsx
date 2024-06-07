@@ -23,6 +23,18 @@ export default function FAQ({
       label: "Pergunta 2",
       content: "<p>Resposta da segunda pergunta</p>",
     },
+    {
+      label: "Pergunta 3",
+      content: "<p>Resposta da terceira pergunta</p>",
+    },
+    {
+      label: "Pergunta 4",
+      content: "<p>Resposta da quarta pergunta</p>",
+    },
+    {
+      label: "Pergunta 5",
+      content: "<p>Resposta da quinta pergunta</p>",
+    },
   ],
 }: Props) {
   return (

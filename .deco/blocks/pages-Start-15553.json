@@ -196,6 +196,9 @@
       "name": "It Works!"
     },
     {
+      "__resolveType": "site/sections/Rewards.tsx"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "preTitle": {
         "0": "G",
