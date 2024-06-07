@@ -1,41 +1,80 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+interface LinkItem {
+  text: string;
+  textUrl: string;
+}
+
+interface ColumnLink {
+  title?: string;
+  titleUrl?: string;
+  items?: LinkItem[];
+}
+
+interface FooterBottom {
+  socials?: ImageWidget[];
+  texts?: {
+    text?: string;
+    url?: string;
+  }[]
+}
+
 interface Props {
-  href?: string;
-  image?: ImageWidget;
-  alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
+  logo?: ImageWidget;
+  columnLinks?: ColumnLink[];
+  footerBottom?: FooterBottom;
 }
 
 function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
+  logo,
+  columnLinks,
+  footerBottom
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
+    <div class="bg-accent px-6 py-20">
+      <div class="flex flex-col md:flex-row md:justify-between lg:container">
+        {logo && <a class="mb-12" href="/"><Image src={logo} width={143.58} height={40} alt="Deco.cx" /></a>}
+        <div class="flex flex-col md:flex-row gap-4 md:gap-[40px]">
+          {columnLinks?.map((columns) => (
+            <div class="flex flex-col gap-4 md:gap-5 text-info-content opacity-90">
+              <a href={columns.titleUrl} class="font-bold hidden md:block">{columns.title}</a>
+              <ul class="flex flex-col gap-4 md:gap-2">
+                {columns.items?.map((link) => (
+                  <li>
+                    <a href={link.textUrl} class="inline-block group">
+                      <div class="mb-[6px]">{link.text}</div>
+                      <div class="h-[2px] bg-black w-0 group-hover:w-full duration-500"></div>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6 lg:gap-4 lg:container">
+        <ul class="flex flex-row justify-items-start md:justify-end items-start gap-4">
+          {footerBottom?.socials?.map((item: any) => (
+            <li>
+              <a href="flex justify-center items-center px-3  h-10 w-10 hover:bg-[#FFFFFF1A] rounded-[56px] p-2 transition duration-500">
+                <Image
+                  src={item}
+                  width={24}
+                  height={24}
+                  alt="Ícone rede social"
+                />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <div class="flex flex-col md:flex-row-reverse gap-5 lg:gap-10 text-info-content text-xs"
+        >
+          {footerBottom?.texts?.map((item) => (
+            <a class="underline underline-offset-4" href={item.url || "#"}>{item.text || ""}</a>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
