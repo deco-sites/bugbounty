@@ -186,7 +186,7 @@
       },
       "button": {
         "buttonText": "Submit a Bug",
-        "buttonUrl": "/",
+        "buttonUrl": "https://airtable.com/apphZSKSjs5qEgWLI/shrKA3269lsCFPIme",
         "buttonImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/f115f7ea-8387-402b-b489-646d433c1400"
       },
       "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/7f9f8650-98dc-43d2-8838-f46e0d68f613"
@@ -537,12 +537,38 @@
       },
       "button": {
         "buttonText": "Submit a Bug",
-        "buttonUrl": "/",
+        "buttonUrl": "https://airtable.com/apphZSKSjs5qEgWLI/shrKA3269lsCFPIme",
         "buttonImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10623/9945cc1c-e038-4aaf-9f4b-b92bd776ecb5"
       }
     },
     {
-      "__resolveType": "site/sections/FAQ.tsx"
+      "__resolveType": "site/sections/FAQ.tsx",
+      "questions": [
+        {
+          "label": "What is the deco.cx Bug Bounty Program?",
+          "content": "The deco.cx Bug Bounty Program is an initiative to identify and resolve security vulnerabilities in our platform. We invite ethical hackers and security researchers to help us by discovering and responsibly disclosing any vulnerabilities. In return, we offer rewards based on the severity and impact of the findings."
+        },
+        {
+          "label": "How are the rewards determined?",
+          "content": "Rewards are determined based on the severity of the vulnerability, as assessed using the CVSS (Common Vulnerability Scoring System) calculator. Rewards range from $100 to $2,000, with exceptional reports eligible for higher rewards."
+        },
+        {
+          "content": "You can calculate the CVSS score using the CVSS calculator. This score helps us determine the impact and severity of the vulnerability and the corresponding reward.",
+          "label": "How do I calculate the CVSS score for my finding?"
+        },
+        {
+          "content": "The following types of vulnerabilities are generally considered out of scope:  Issues related to outdated browsers or plugins. Vulnerabilities requiring physical access to the user's device. Social engineering attacks (phishing, vishing, etc.). Denial of Service (DoS) attacks. Spamming techniques.",
+          "label": "What vulnerabilities are out of scope?"
+        },
+        {
+          "label": "What is responsible disclosure?",
+          "content": "Responsible disclosure means that you should report the vulnerability to us privately and give us time to address it before making any information public. This helps ensure that the vulnerability is not exploited maliciously while we work on a fix."
+        },
+        {
+          "label": "How long does it take to receive a reward?",
+          "content": "Our security team aims to review your report and respond within five business days. Once a vulnerability is confirmed and resolved, we will process the reward payment, which may take a few additional days."
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
@@ -551,131 +577,51 @@
         {
           "items": [
             {
-              "text": "Link One",
-              "textUrl": "/"
+              "text": "Login",
+              "textUrl": "https://admin.deco.cx/"
             },
             {
-              "text": "Link Two",
-              "textUrl": "/"
+              "text": "Pricing",
+              "textUrl": "https://deco.cx/en/pricing"
             },
             {
-              "text": "Link Three",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Four",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Five",
-              "textUrl": "/"
+              "text": "Talk to us",
+              "textUrl": "https://deco.cx/en/contact-us"
             }
           ],
-          "title": "Column One",
-          "titleUrl": "/"
+          "titleUrl": "https://deco.cx/",
+          "title": "Platform"
         },
         {
           "items": [
             {
-              "text": "Link One",
-              "textUrl": "/"
+              "text": "Docs",
+              "textUrl": "https://deco.cx/docs/en/overview"
             },
             {
-              "text": "Link Two",
-              "textUrl": "/"
+              "text": "Blog",
+              "textUrl": "https://deco.cx/en/blog"
             },
             {
-              "text": "Link Three",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Four",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Five",
-              "textUrl": "/"
+              "text": "Community",
+              "textUrl": "https://deco.cx/en/community"
             }
           ],
-          "title": "Column Two",
-          "titleUrl": "/"
+          "title": "Resources",
+          "titleUrl": "https://deco.cx/docs/en/overview"
         },
         {
           "items": [
             {
-              "text": "Link One",
-              "textUrl": "/"
+              "text": "Ai Assistant",
+              "textUrl": "https://deco.cx/ai-assistant"
             },
             {
-              "text": "Link Two",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Three",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Four",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Five",
-              "textUrl": "/"
+              "text": "Front-end platform",
+              "textUrl": "https://deco.cx/"
             }
           ],
-          "title": "Column Three",
-          "titleUrl": "/"
-        },
-        {
-          "items": [
-            {
-              "text": "Link One",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Two",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Three",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Four",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Five",
-              "textUrl": "/"
-            }
-          ],
-          "title": "Column Four",
-          "titleUrl": "/"
-        },
-        {
-          "items": [
-            {
-              "text": "Link One",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Two",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Three",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Four",
-              "textUrl": "/"
-            },
-            {
-              "text": "Link Five",
-              "textUrl": "/"
-            }
-          ],
-          "title": "Column Five",
+          "title": "Products",
           "titleUrl": "/"
         }
       ],
@@ -700,11 +646,11 @@
         "texts": [
           {
             "text": "Privacy Policy",
-            "url": "/"
+            "url": "https://drive.google.com/file/d/1UnHo_CeGqNTNM0XSkZ8dIiKb78QOn1g8/view"
           },
           {
             "text": "Terms of Service",
-            "url": "/"
+            "url": "https://drive.google.com/file/d/1OfZeXVfQhCpJF5M0cX0pt0vSHI3SlNGZ/view"
           },
           {
             "text": "Cookie Settings",
